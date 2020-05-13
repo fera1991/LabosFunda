@@ -19,4 +19,5 @@ int main(void)
     cout << "resultado positivo = " << resultado1 << endl << "resultado negativo = "<< resultado2;
     char g;
     cin >> g;
+    return 0;
 }
