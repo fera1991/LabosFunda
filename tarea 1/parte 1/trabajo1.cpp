@@ -6,9 +6,9 @@ int main()
     float a, b, c;
     cout << "escriba el valor de nota 1" << endl;
     cin >> a;
-    cout << "escriba el valor de nota 1" << endl;
+    cout << "escriba el valor de nota 2" << endl;
     cin >> b;
-    cout << "escriba el valor de nota 1" << endl;
+    cout << "escriba el valor de nota 3" << endl;
     cin >> c;
     float promedio = (a+b+c)/3;
     cout << "resultado de promedio de las notas = " << promedio;
