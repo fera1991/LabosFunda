@@ -17,5 +17,5 @@ int main (void)
     cout << "El perimetro del radio es = "<< p;
     char g;
     cin >> g;
-
+    return 0;
 }
