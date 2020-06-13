@@ -20,6 +20,7 @@ int main(void)
     salarios1(hora,extra,i);
 
     }
+    system("pause);
     return 0;
 }
     
