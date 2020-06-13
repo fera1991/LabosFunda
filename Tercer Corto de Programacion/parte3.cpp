@@ -9,6 +9,8 @@ int main (void)
     cout << "Escrbia el año: " << endl;
     cin >> a;
     bisiesto(a);
+    system("pause")
+    return 0;
 }
 int bisiesto(int a)
 {
