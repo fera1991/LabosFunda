@@ -14,7 +14,7 @@ int main (void)
 }
 int bisiesto(int a)
 {
-    int b, c;
+    int b, c, d;
     b = a%400;
     if( b == 0)
     {
@@ -23,7 +23,8 @@ int bisiesto(int a)
     else
     {
         c=a%4;
-    if (c==0)
+        d= a%100;
+    if (c==0 && d !=0)
     {
        cout << "El año es bisiesto." << endl;
     }
