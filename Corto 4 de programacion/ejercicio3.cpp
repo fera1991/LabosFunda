@@ -24,7 +24,7 @@ int main(void)
 }
 float nota(float estudiantes[][5],int n)
 {
-    float suma[5] = {0,0,0,0,0};
+    float suma[n];
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j <=4 ; j++)
